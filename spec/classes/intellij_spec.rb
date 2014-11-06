@@ -15,7 +15,7 @@ describe 'intellij' do
   context 'with default parameters' do
     let (:params) { { } }
 
-    version = '13.1.1'
+    version = '14.0'
 
     it { should contain_class('intellij') }
 
