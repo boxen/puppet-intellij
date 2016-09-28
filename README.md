@@ -1,24 +1,7 @@
-# IntelliJ IDEA Puppet Module for Boxen [![Build Status](https://travis-ci.org/boxen/puppet-intellij.png?branch=master)](https://travis-ci.org/boxen/puppet-intellij)
+# IntelliJ IDEA Puppet Module for Boxen
 
-Install [IntelliJ IDEA](http://www.jetbrains.com/idea/), a code-centric IDE, focused on your productivity.
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-## Usage
-
-```puppet
-class { 'intellij':
-  edition => 'community',
-}
-class { 'intellij':
-  edition => 'ultimate',
-	version => '12.1.4'
-}
-```
-
-## Required Puppet Modules
-
-* `boxen`
-
-## Development
-
-Write code. Run `script/cibuild` to test it. Check the `script`
-directory for other useful tools.
+[1]: https://caskroom.github.io/
+[2]: https://github.com/boxen/puppet-boxen/blob/master/manifests/personal.pp#L14-L17
